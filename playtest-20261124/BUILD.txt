@@ -1,11 +1,13 @@
 Garage Cyborg — full game web playtest
 Date: 2026-11-24
-Rev: playtest-20261124-cleanup
+Rev: playtest-20261124-t2230
 Label: not gated (full Tier 2 has not been run)
 N-key feedback: on (playtest only; remove before publishing)
 Export: Godot 4.7.2, Web, no-threads, gl_compatibility
-Game source: 9f6938c (t2223u cleanup #2-#4,#6-#9 on ee04980 Dimbulb goon cap 2 / d294981 web audio fix / official 92e8fefa demo-1.5)
-PCK: index.pck.part0 + index.pck.part1 stitched in the shell (160,995,304 bytes)
+Game source: 74b96de (t2229u/t2230u: calmer Quench throws + City Streets card only before round 1; on 9f6938c cleanup / ee04980 Dimbulb goon cap / d294981 web audio fix)
+PCK: index.pck.part0 + index.pck.part1 stitched in the shell (160,990,136 bytes)
 Audio: f8d2c7b unlock (resume AudioContext on pointerdown/keydown) plus the f8d2c7b bus-side fix (do not call set_bus_send after add_bus on web)
-Boss 1: later Dimbulb waves wait until the current pair is gone (max_alive 2); no stacked hidden shooters in the crate lanes.
-Cleanup: test harness split, single per-frame actor placement, unused mansion prototype removed, texture cache, exit audio leak fixed, card text in stage data, 18 duplicate image sets removed (~7.3 MB). F2-F6 playtest jumps unchanged.
+Boss 1: later Dimbulb waves wait until the current pair is gone (max_alive 2).
+Boss 2 art: not swapped; waiting for Splaze to confirm current limo plates vs standing Secretary Quench.
+Quench throws: one in the air, 0.8s wind-up telegraph, 3.5s gap, folder/rod alternate (data in stage2.json plaza.quench).
+City Streets intro card: only before round 1.
