@@ -1,0 +1,9 @@
+Garage Cyborg — full game web playtest
+Date: 2026-11-24
+Label: not gated (full Tier 2 has not been run)
+N-key feedback: on (playtest only; remove before publishing)
+Export: Godot 4.7.2, Web, no-threads, gl_compatibility
+Game source: 92e8fefa37e08a4206fd532f39850dd4eb07838a (tag demo-1.5; official c44dbbd, all areas present)
+Export preset commit: 41653233ced43ab0bade9396a03f4a3316fdd9a2
+PCK: index.pck.part0 + index.pck.part1 stitched in the shell (166,316,212 bytes)
+Audio: f8d2c7b unlock (resume AudioContext on pointerdown/keydown)
