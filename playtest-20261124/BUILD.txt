@@ -1,13 +1,14 @@
 Garage Cyborg — full game web playtest
 Date: 2026-11-24
-Rev: playtest-20261124-t2230
+Rev: playtest-20261124-t2230s8421
 Label: not gated (full Tier 2 has not been run)
 N-key feedback: on (playtest only; remove before publishing)
 Export: Godot 4.7.2, Web, no-threads, gl_compatibility
-Game source: 74b96de (t2229u/t2230u: calmer Quench throws + City Streets card only before round 1; on 9f6938c cleanup / ee04980 Dimbulb goon cap / d294981 web audio fix)
-PCK: index.pck.part0 + index.pck.part1 stitched in the shell (160,990,136 bytes)
+Game source: 9bf33f9 (t2230s8421: standing Quench in every plaza boss phase, no armored town car; keeps 74b96de calmer throws and cafad82 City Streets card only before round 1)
+PCK: index.pck.part0 + index.pck.part1 stitched in the shell (160,991,976 bytes)
+PCK sha256: a015c669e3e89bc2bcbd87a3592741f7d916cd913199843b1b09f14567a173b2
 Audio: f8d2c7b unlock (resume AudioContext on pointerdown/keydown) plus the f8d2c7b bus-side fix (do not call set_bus_send after add_bus on web)
 Boss 1: later Dimbulb waves wait until the current pair is gone (max_alive 2).
-Boss 2 art: not swapped; waiting for Splaze to confirm current limo plates vs standing Secretary Quench.
+Boss 2 art: standing Secretary Quench (quench_idle / quench_attack / quench_hit / quench_escape) in all phases. Limo plates are not used.
 Quench throws: one in the air, 0.8s wind-up telegraph, 3.5s gap, folder/rod alternate (data in stage2.json plaza.quench).
 City Streets intro card: only before round 1.
