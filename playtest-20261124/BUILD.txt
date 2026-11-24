@@ -1,9 +1,10 @@
 Garage Cyborg — full game web playtest
 Date: 2026-11-24
-Rev: playtest-20261124-audio2
+Rev: playtest-20261124-goon1
 Label: not gated (full Tier 2 has not been run)
 N-key feedback: on (playtest only; remove before publishing)
 Export: Godot 4.7.2, Web, no-threads, gl_compatibility
-Game source: d29498131bfa61c86f2eac9f7699087cd715cc8b (web audio bus fix on official 92e8fefa / demo-1.5)
-PCK: index.pck.part0 + index.pck.part1 stitched in the shell (166,316,340 bytes)
+Game source: ee04980dbbfdea3d8f1abc7130ca2abcabb702d8 (Dimbulb goon cap 2, on d294981 web audio fix / official 92e8fefa demo-1.5)
+PCK: index.pck.part0 + index.pck.part1 stitched in the shell (166,316,756 bytes)
 Audio: f8d2c7b unlock (resume AudioContext on pointerdown/keydown) plus the f8d2c7b bus-side fix (do not call set_bus_send after add_bus on web)
+Boss 1: later Dimbulb waves wait until the current pair is gone (max_alive 2); no stacked hidden shooters in the crate lanes.
